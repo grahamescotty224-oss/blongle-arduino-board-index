@@ -40,7 +40,7 @@ the bootloader.
 The package index is stored at the repository root. Platform archives are
 attached to matching GitHub releases.
 
-Current platform version: **1.0.0**
+Current platform version: **1.0.1**
 
 ## Source and licence
 
@@ -49,3 +49,26 @@ copyright and licence notices remain in the platform source.
 
 This repository is distributed under the GNU Lesser General Public License
 v2.1. See [LICENSE](LICENSE).
+
+## Updating and duplicate board entries
+
+Use Boards Manager to update **BLONGLE SAMD Boards** to 1.0.1. Select
+**BLONGLE-MC1-NANO** under **BLONGLE SAMD Boards**, not the older
+**BLONG SAMD Boards** manual installation.
+
+If both appear, first confirm the new package uploads and runs your sketch.
+Then quit Arduino IDE and move the old `blong` folder out of your sketchbook's
+`hardware` directory into a backup folder outside the sketchbook. On the original
+macOS setup it is `~/Documents/Arduino/hardware/blong`. Restart the IDE.
+Renaming the folder inside `hardware` does not remove it from discovery.
+Keep the working bootloader archive; this update does not require reflashing it.
+
+## Changes in 1.0.1
+
+- Fix the HID USB endpoint narrowing warning with an explicit byte conversion.
+- Preserve the earlier variant, Serial, linker and 8 KB bootloader-space fixes.
+- Keep 1.0.0 in the index for rollback.
+- Add release checks for these fixes and duplicate-installation guidance.
+
+The 1.0.0 package was installed, compiled, uploaded and run on the owner's Mac
+and MC1-NANO. That is not a claim of testing every operating system or library.

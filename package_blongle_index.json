@@ -12,6 +12,61 @@
         {
           "name": "BLONGLE SAMD Boards",
           "architecture": "samd",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/grahamescotty224-oss/blongle-arduino-board-index/releases/download/v1.0.1/BLONGLE-SAMD-Boards-1.0.1.tar.bz2",
+          "archiveFileName": "BLONGLE-SAMD-Boards-1.0.1.tar.bz2",
+          "checksum": "SHA-256:06d0f5f10b1a150383c24e23fa9028e33dd1dec96e36e2c5cc9b519b73412b38",
+          "size": "4618217",
+          "help": {
+            "online": "https://github.com/grahamescotty224-oss/blongle-arduino-board-index/issues"
+          },
+          "boards": [
+            {
+              "name": "BLONGLE-MC1-NANO"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "adafruit",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
+          "name": "BLONGLE SAMD Boards",
+          "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://github.com/grahamescotty224-oss/blongle-arduino-board-index/releases/download/v1.0.0/BLONGLE-SAMD-Boards-1.0.0.tar.bz2",
