@@ -1,0 +1,2 @@
+3e071d686bfb57160d9eab70d7d43a6d544ccc12693ff370d0c27e6fad5b79ec  BLONGLE-SAMD-Boards-1.0.0.tar.bz2
+bbc34dcf8d38a4a397f160eceb220019dbddd1b7fc20e22dc2f11e6291ca15e1  package_blongle_index.json
